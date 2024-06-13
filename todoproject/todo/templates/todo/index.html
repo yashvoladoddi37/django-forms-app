@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yashpreet's To-Do List</title>
+</head>
+<body>
+    <h1>Yashpreet's To-Do List</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Add Task</button>
+    </form>
+    <ul>
+        {% for task in tasks %}
+            <li>
+                <a href="{% url 'toggle_task' task.id %}">
+                    {{ task.title }}
+                </a> - {{ task.completed|yesno:"Completed,Pending" }}
+                <a href="{% url 'delete_task' task.id %}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
