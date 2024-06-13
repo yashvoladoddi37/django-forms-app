@@ -12,10 +12,10 @@ This is a simple To-Do List application built using Django, a high-level Python 
 
 ## Technologies Used
 
-- Python 3.x
-- Django 3.x
-- SQLite (for development, can be configured to other databases like PostgreSQL, MySQL, etc., for production)
-- HTML/CSS (Bootstrap for styling)
+- Python 
+- Django 
+- SQLite
+- HTML
 
 ## Getting Started
 
