@@ -8,10 +8,6 @@ A simple To-Do List application built with Django that allows users to add, view
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Future Improvements](#future-improvements)
-- [License](#license)
 
 ## Introduction
 
