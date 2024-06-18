@@ -19,8 +19,8 @@ This To-Do List application is designed to help users manage their tasks efficie
 
 ## Technologies Used
 
-- Python 3.9 (or any compatible version)
-- Django 3.x (installed via Conda)
+- Python
+- Django
 - HTML and CSS for the frontend
 - Conda for environment management
 
